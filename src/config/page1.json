@@ -1,0 +1,21 @@
+{
+    "slideshow": {
+        "title": "this is a slideshow 1",
+        "text": "opoijdsifhdskj kdsjnf ijdshnf",
+        "size": { "width": "120px", "height": "1515px" },
+        "images": [
+            { "path": "", "title": "image 1" },
+            { "path": "", "title": "image 2" },
+            { "path": "", "title": "image 3" }
+        ]
+    },
+    "header": {
+        "title": "this is a header",
+        "text": "oidjsfodsjif opifjsdioudhnf uidshf usdhybn"
+    },
+    "spotlight": [
+        { "title": "spotlight 1", "text": "jdsf isdjn nsdfi jnsdifounds un dsbkjfbd nskjfb sdkjfb dskjbf" },
+        { "title": "spotlight 2", "text": "jjnsdifounds un dsbkjfbd nskjfb sdkjfb dskjbf" }
+    ]
+
+}
