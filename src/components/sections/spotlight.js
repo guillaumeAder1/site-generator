@@ -1,11 +1,7 @@
 import React from 'react'
 import css from '../../config/style.json'
 
-
-
-const Spotlight = (props) => (
-
-
+const item = (props) => (
     <section style={{ backgroundColor: css.style.secBg }}>
         <a href="generic.html" className="image">
             <img
@@ -17,9 +13,9 @@ const Spotlight = (props) => (
         <div className="content">
             <div className="inner">
                 <header className="major">
-                    <h3>{e.title}</h3>
+                    <h3>{props.title}</h3>
                 </header>
-                <p>{e.text}</p>
+                <p>{props.text}</p>
                 <ul className="actions">
                     <li>
                         <a href="generic.html" className="button">Learn more</a>
@@ -29,10 +25,12 @@ const Spotlight = (props) => (
         </div>
     </section>
 
+)
 
-
-
-
-);
+const Spotlight = (props) => {
+    return props.map((e, i) => {
+        return item(e)
+    })
+}
 
 export default Spotlight;
