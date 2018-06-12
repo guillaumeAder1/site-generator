@@ -28,9 +28,14 @@ const item = (props) => (
 )
 
 const Spotlight = (props) => {
-    return props.map((e, i) => {
-        return item(e)
-    })
-}
 
-export default Spotlight;
+    const build = (data) => (
+        <div>HELLO {data.title}</div>
+    )
+
+    for (var val in props) {
+        return (build(props[val]))
+    }
+
+}
+export default Spotlight; 
