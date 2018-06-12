@@ -17,7 +17,8 @@ const About = () => (
 
 const Def = () => (
     <div>
-        default    </div>
+        default
+    </div>
 );
 
 const Section = () => (

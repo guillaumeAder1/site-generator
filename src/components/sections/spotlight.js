@@ -1,31 +1,7 @@
 import React from 'react'
 import css from '../../config/style.json'
 
-const item = (props, i) => (
-    <section key={i} style={{ backgroundColor: css.style.secBg }}>
-        <a href="generic.html" className="image">
-            <img
-                src="images/pic08.jpg"
-                alt=""
-                data-position="center center"
-            />
-        </a>
-        <div className="content">
-            <div className="inner">
-                <header className="major">
-                    <h3>{props.title}</h3>
-                </header>
-                <p>{props.text}</p>
-                <ul className="actions">
-                    <li>
-                        <a href="generic.html" className="button">Learn more</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
 
-)
 
 const Spotlight = (props) => {
 
@@ -58,12 +34,13 @@ const Spotlight = (props) => {
         )
     }
 
+    // TODO: replace using reduce
     let list = [];
     for (var val in props) {
         list.push(props[val])
     }
 
-    return list.map((e, i) => <div className="spotlights">{build(e, i)}</div>)
+    return list.map((e, i) => <div key={i} className="spotlights">{build(e, i)}</div>)
 
 }
 export default Spotlight; 

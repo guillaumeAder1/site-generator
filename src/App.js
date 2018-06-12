@@ -3,7 +3,7 @@ import Section from './components/nav/section';
 import Header from './components/nav/header';
 
 const App = () => (
-  <div id="wrapper"  >
+  <div >
     <Header />
     <Section />
   </div>
