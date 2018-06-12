@@ -1,7 +1,7 @@
 {
     "slideshow": {
         "title": "this is a slideshow 1",
-        "text": "opoijdsifhdskj kdsjnf ijdshnf",
+        "text": "et sagittis magna sed nunc rhoncus condimentum sem. ",
         "size": { "width": "120px", "height": "1515px" },
         "images": [
             { "path": "", "title": "image 1" },
@@ -11,11 +11,12 @@
     },
     "header": {
         "title": "this is a header",
-        "text": "oidjsfodsjif opifjsdioudhnf uidshf usdhybn"
+        "text": "Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna."
     },
     "spotlight": [
-        { "title": "spotlight 1", "text": "jdsf isdjn nsdfi jnsdifounds un dsbkjfbd nskjfb sdkjfb dskjbf" },
-        { "title": "spotlight 2", "text": "jjnsdifounds un dsbkjfbd nskjfb sdkjfb dskjbf" }
+        { "title": "this is spotlight 1", "text": "et sagittis magna sed nunc rhoncus condimentum sem. " },
+        { "title": "this is spotlight 2", "text": "Nullam et orci eu lorem consequat " },
+        { "title": "this is spotlight 3", "text": "consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem." }
     ]
 
 }
