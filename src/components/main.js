@@ -3,6 +3,7 @@ import css from '../config/style.json'
 import Spotlight from './sections/spotlight'
 import Slideshow from './sections/slideshow'
 import Header from './sections/header'
+import Tiles from './sections/tiles'
 
 class Main extends Component {
     constructor(props) {
@@ -29,6 +30,8 @@ class Main extends Component {
                 comp = <Spotlight key={i} {...data[e]} />
             } else if (e == 'header') {
                 comp = <Header key={i} {...data[e]} />
+            } else if (e == 'tiles') {
+                comp = <Tiles key={i} {...data[e]} />
             }
             return comp
         })

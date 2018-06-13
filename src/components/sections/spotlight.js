@@ -40,7 +40,7 @@ const Spotlight = (props) => {
         list.push(props[val])
     }
 
-    return list.map((e, i) => <div key={i} className="spotlights">{build(e, i)}</div>)
+    return (<div className="spotlights">{list.map((e, i) => build(e, i))}</div>)
 
 }
 export default Spotlight; 

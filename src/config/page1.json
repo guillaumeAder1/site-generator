@@ -9,6 +9,12 @@
             { "path": "", "title": "image 3" }
         ]
     },
+    "tiles": [
+        { "title": "this is Tile 1", "text": "et sagittis magna sed nunc rhoncus condimentum sem. " },
+        { "title": "this is Tile 2", "text": "Nullam et orci eu lorem consequat " },
+        { "title": "this is Tile 3", "text": "consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem." },
+        { "title": "this is Tile 4", "text": "consequat Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem." }
+    ],
     "header": {
         "title": "this is a header",
         "text": "Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna."
