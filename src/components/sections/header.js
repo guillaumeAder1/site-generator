@@ -1,7 +1,10 @@
 import React from 'react'
 import css from '../../config/style.json'
 
-
+/**
+ * Header component
+ * @param {Object} props - should have 'title' and 'text' properties 
+ */
 const Header = (props) => (
 
     <section style={{ backgroundColor: css.style.secBg }}>

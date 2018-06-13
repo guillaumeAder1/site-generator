@@ -1,7 +1,10 @@
 import React from 'react'
 import css from '../../config/style.json'
 
-
+/**
+ * Slideshow 
+ * @param {Objec} props - should have 'title' and 'text' properties 
+ */
 const Slideshow = (props) => (
 
     <section style={{ backgroundColor: css.style.secBg }}>

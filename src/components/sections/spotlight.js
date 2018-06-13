@@ -2,7 +2,10 @@ import React from 'react'
 import css from '../../config/style.json'
 
 
-
+/**
+ * 
+ * @param {Array} props - List of Object, this object should have 'title' and 'text' properties  
+ */
 const Spotlight = (props) => {
 
     const build = (e, i) => {
