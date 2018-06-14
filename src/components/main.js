@@ -4,6 +4,7 @@ import Spotlight from './sections/spotlight'
 import Slideshow from './sections/slideshow'
 import Header from './sections/header'
 import Tiles from './sections/tiles'
+import Contact from './sections/contact'
 
 /**
  * Main component
@@ -19,7 +20,8 @@ class Main extends Component {
         }
     }
     /**
-     * will instanciate Component based on JSON file
+     * will instanciate Component based on JSON file.
+     * evry KEY of json file should be a part of /components/section
      * @param {*Object} data - generated from a json file located in /config
      */
     buildHtml(data) {
@@ -34,6 +36,8 @@ class Main extends Component {
                 comp = <Header key={i} {...data[e]} />
             } else if (e == 'tiles') {
                 comp = <Tiles key={i} {...data[e]} />
+            } else if (e == 'contact') {
+                comp = <Contact key={i} {...data[e]} />
             }
             return comp
         })
