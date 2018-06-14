@@ -27,7 +27,7 @@ class Section extends Component {
                         <strong>#portfolio</strong> <span>Guillaume Ader</span>
                     </a>
                     <nav>
-                        <a href="" onClick={e => this.addclassName(true)}>
+                        <a onClick={e => this.addclassName(true)}>
                             Menu
                         </a>
                     </nav>
