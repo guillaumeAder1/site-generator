@@ -6,17 +6,39 @@ import Main from '../main'
 const Home = () => (
     <div>
         <h2>Home</h2>
+        <h2>Home</h2>
+        <h2>Home</h2>
+        <h2>Home</h2>
+        <h2>Home</h2>
+        <h2>Home</h2>
     </div>
 );
 
 const About = () => (
     <div>
         <h2>About</h2>
+        <h2>About</h2>
+        <h2>About</h2>
+        <h2>About</h2>
+        <h2>About</h2>
+        <h2>About</h2>
+
     </div>
 );
 
 const Def = () => (
     <div>
+        default  default default
+        default
+        default
+        default
+        default
+        default
+        default
+        default
+        default
+        default
+
         default
     </div>
 );
@@ -32,8 +54,8 @@ const Section = () => (
             })
         }
         {/* <Route exact path="/" component={Def} />
-        <Route exact path="/About" component={About} />
-        <Route exact path="/Home" component={Home} /> */}
+        <Route exact path="/my-about" component={About} />
+        <Route exact path="/my-home" component={Home} /> */}
     </React.Fragment >
 )
 

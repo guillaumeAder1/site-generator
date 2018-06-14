@@ -8,9 +8,16 @@ module.exports = {
   entry: {
     index: path.resolve(__dirname, './src/index')
   },
+
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: '[name].js'
+    filename: '[name].js',
+    //
+    publicPath: '/',
+  },
+  devServer: {
+    // need to be defined to refresh browser
+    historyApiFallback: true,
   },
   module: {
     rules: [

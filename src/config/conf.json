@@ -1,8 +1,8 @@
 {
     "routes": [
         { "name": "Home", "path": "my-home", "component": "" },
-        { "name": "Page1", "path": "", "component": "page1" },
-        { "name": "About", "path": "my-about", "component": "" }
+        { "name": "Page1", "path": "my-page", "component": "page1" },
+        { "name": "About", "path": "my-about", "component": "page2" }
 
     ]
 }
