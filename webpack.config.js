@@ -1,6 +1,7 @@
 const path = require('path')
 const webpack = require('webpack')
 const HtmlWebPackPlugin = require("html-webpack-plugin");
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
   devtool: 'eval-source-map',
@@ -8,9 +9,8 @@ module.exports = {
     index: path.resolve(__dirname, './src/index')
   },
   output: {
-    path: path.resolve(__dirname, ''),
-    publicPath: '/',
-    filename: 'dist/[name].js'
+    path: path.resolve(__dirname, 'dist'),
+    filename: '[name].js'
   },
   module: {
     rules: [
@@ -32,15 +32,20 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader']
+        use: ExtractTextPlugin.extract(
+          {
+            fallback: 'style-loader',
+            use: ['css-loader']
+          })
       }
     ]
   },
   plugins: [
     // new webpack.HotModuleReplacementPlugin(),
+    new ExtractTextPlugin({ filename: 'style.css' }),
     new HtmlWebPackPlugin({
       template: "./src/index.html",
-      filename: "./index.html"
+      filename: "index.html"
     })
 
   ],

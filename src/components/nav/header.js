@@ -23,11 +23,11 @@ class Section extends Component {
         return (
             <React.Fragment>
                 <header id="header" style={{ backgroundColor: css.style.header }}>
-                    <a href="" className="logo">
+                    <a className="logo">
                         <strong>#portfolio</strong> <span>Guillaume Ader</span>
                     </a>
                     <nav>
-                        <a href="#menu" onClick={e => this.addclassName(true)}>
+                        <a onClick={e => this.addclassName(true)}>
                             Menu
                         </a>
                     </nav>
@@ -43,10 +43,10 @@ class Section extends Component {
                         </ul>
                         <ul className="actions vertical">
                             <li>
-                                <a href="#" className="button special fit">  Get Started </a>
+                                <a href="" className="button special fit">  Get Started </a>
                             </li>
                             <li>
-                                <a href="#" className="button fit">Log In</a>
+                                <a href="" className="button fit">Log In</a>
                             </li>
                         </ul>
                     </div>
