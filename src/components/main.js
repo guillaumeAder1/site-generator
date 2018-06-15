@@ -26,6 +26,10 @@ class Main extends Component {
      */
     buildHtml(data) {
         const skeleton = Object.keys(data);
+        // const path = skeleton[0]
+        // import(`./sections/${path}.js`).then(_module => {
+        //     console.log(_module)
+        // })
         const tmp = skeleton.map((e, i) => {
             let comp;
             if (e == 'slideshow') {

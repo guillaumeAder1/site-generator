@@ -46,12 +46,11 @@ const Def = () => (
 const Section = () => (
     <React.Fragment>
         {
-            config.routes.map((e, i) => {
-                return <Route exact
-                    key={i}
-                    path={"/" + e.path}
-                    render={(props) => <Main {...props} config={e.component} />} />
-            })
+            config.routes.map((e, i) => <Route exact
+                key={i}
+                path={"/" + e.path}
+                render={(props) => <Main {...props} config={e.component} />} />
+            )
         }
         {/* <Route exact path="/" component={Def} />
         <Route exact path="/my-about" component={About} />
