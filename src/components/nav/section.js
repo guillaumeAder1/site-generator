@@ -47,9 +47,9 @@ const Section = () => (
     <React.Fragment>
 
         {
-            config.routes.map((e, i) => <Route exact
+            config.routes.map((e, i) => <Route
                 key={i}
-                exact
+
                 path={"/" + e.path}
                 component={Main}
             // render={(props) => <Main {...props} config={e.component} />} 
