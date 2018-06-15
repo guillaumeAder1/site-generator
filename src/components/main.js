@@ -52,7 +52,8 @@ class Main extends Component {
      */
     componentDidMount() {
         // call page config to generate HTML
-        const url = `../../src/config/${this.props.config}.json`
+        const path = this.props.config || 'page1'
+        const url = `../../src/config/${path}.json`
         fetch(url, { method: 'get' })
             .then(response => response.json())
             .then(data => this.buildHtml(data))
