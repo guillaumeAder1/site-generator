@@ -14,7 +14,7 @@ module.exports = {
     chunkFilename: '[name].js',
     filename: '[name].js',
     //
-    publicPath: '/',
+    //publicPath: '/',
   },
   devServer: {
     // need to be defined to refresh browser
