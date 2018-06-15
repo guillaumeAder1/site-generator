@@ -12,7 +12,7 @@ const Tiles = (props) => {
         const display = (i % 2 == 0) ? 'top center' : 'center center';
         const bg = (i % 2 == 0) ? css.style.secBg : css.style.mainBg;
         return (
-            <article style={{ backgroundImage: "url('./assets/images/pic01.jpg')" }}>
+            <article key={i} style={{ backgroundImage: "url('./assets/images/pic01.jpg')" }}>
                 <span className="image" style={{ display: 'none' }}>
                     <img src="images/pic01.jpg" alt="" />
                 </span>
