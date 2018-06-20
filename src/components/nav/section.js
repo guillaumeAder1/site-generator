@@ -51,8 +51,8 @@ const Section = () => (
                 key={i}
 
                 path={"/" + e.path}
-                component={Main}
-            // render={(props) => <Main {...props} config={e.component} />} 
+                //component={Main}
+                render={(props) => <Main {...props} config={e.component} />}
             />
             )
         }
