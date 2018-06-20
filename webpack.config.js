@@ -2,6 +2,9 @@ const path = require('path')
 const webpack = require('webpack')
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin')
+const CleanWebpackPlugin = require('clean-webpack-plugin');
+
 
 module.exports = {
   devtool: 'source-map',
@@ -50,11 +53,16 @@ module.exports = {
   },
   plugins: [
     // new webpack.HotModuleReplacementPlugin(),
+    new CleanWebpackPlugin(['dist']),
     new ExtractTextPlugin({ filename: 'style.css' }),
     new HtmlWebPackPlugin({
       template: "./src/index.html",
       filename: "index.html"
-    })
+    }),
+    new CopyWebpackPlugin([
+      { from: 'src/assets', to: 'assets' },
+      { from: 'src/config', to: 'config' }
+    ])
 
   ],
 
