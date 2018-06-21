@@ -5,7 +5,7 @@ import Slideshow from './sections/slideshow'
 import Header from './sections/header'
 import Tiles from './sections/tiles'
 import Contact from './sections/contact'
-import URL from '../config/const'
+import { URL } from '../config/const'
 
 /**
  * Main component
