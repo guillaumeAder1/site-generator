@@ -49,10 +49,9 @@ const Section = () => (
         {
             config.routes.map((e, i) => <Route
                 key={i}
-
                 path={"/" + e.path}
-                component={Main}
-            //render={(props) => <Main {...props} config={e.component} />}
+                //component={Main}
+                render={(props) => <Main {...props} config={e.component} />}
             />
             )
         }
