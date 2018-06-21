@@ -46,7 +46,7 @@ const Def = () => (
 const Section = () => (
     <React.Fragment>
 
-        {
+        {/* {
             config.routes.map((e, i) => <Route
                 key={i}
                 path={"/" + e.path}
@@ -54,11 +54,11 @@ const Section = () => (
             //render={(props) => <Main {...props} config={e.component} />}
             />
             )
-        }
+        } */}
 
-        {/* <Route exact path="/" component={Def} />
+        <Route exact path="/" component={Def} />
         <Route exact path="/my-about" component={About} />
-        <Route exact path="/my-home" component={Home} /> */}
+        <Route exact path="/my-home" component={Home} />
 
     </React.Fragment >
 )
