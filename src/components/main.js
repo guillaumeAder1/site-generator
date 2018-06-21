@@ -56,7 +56,7 @@ class Main extends Component {
         const path = this.props.config || 'page0'
         let url = `config/${path}.json`
         let prev = ''
-        if (!window.location.hostname === 'localhost') {
+        if (window.location.hostname !== 'localhost') {
             // url = `${URL}${url}`
             prev = 'https://guillaumeader1.github.io/site-generator/dist/'
         }
