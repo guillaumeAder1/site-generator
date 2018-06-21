@@ -22,6 +22,7 @@ module.exports = {
   devServer: {
     // need to be defined to refresh browser
     historyApiFallback: true,
+    hot: true
   },
   module: {
     rules: [
@@ -62,7 +63,9 @@ module.exports = {
     new CopyWebpackPlugin([
       { from: 'src/assets', to: 'assets' },
       { from: 'src/config', to: 'config' }
-    ])
+    ]),
+    new webpack.NamedChunksPlugin(),
+    new webpack.HotModuleReplacementPlugin()
 
   ],
 

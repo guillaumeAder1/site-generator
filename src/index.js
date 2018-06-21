@@ -11,11 +11,24 @@ import css from './config/style.json'
 document.querySelector('body').style.backgroundColor = css.style.mainBg
 const target = document.querySelector('#root');
 
-render(
-  <Provider store={store}>
-    <ConnectedRouter history={history}>
-      <App />
-    </ConnectedRouter>
-  </Provider>,
-  target
-);
+const doRender = () => {
+  render(
+    <Provider store={store}>
+      <ConnectedRouter history={history}>
+        <App />
+      </ConnectedRouter>
+    </Provider>,
+    target
+  );
+}
+
+doRender()
+
+if (module.hot) {
+  module.hot.accept('./App', () => {
+    console.log('hot reload....')
+    doRender()
+  })
+}
+
+
