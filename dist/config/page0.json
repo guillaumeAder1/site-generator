@@ -1,0 +1,12 @@
+{
+    "slideshow": {
+        "title": "HOME PAGE",
+        "text": "this is the default home page",
+        "size": { "width": "120px", "height": "1515px" },
+        "images": [
+            { "path": "", "title": "image 1" },
+            { "path": "", "title": "image 2" },
+            { "path": "", "title": "image 3" }
+        ]
+    }
+}

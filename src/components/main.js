@@ -5,6 +5,7 @@ import Slideshow from './sections/slideshow'
 import Header from './sections/header'
 import Tiles from './sections/tiles'
 import Contact from './sections/contact'
+import URL from '../config/const'
 
 /**
  * Main component
@@ -52,9 +53,11 @@ class Main extends Component {
      */
     componentDidMount() {
         // call page config to generate HTML
-        const path = this.props.config || 'page1'
-        //const url = `config/${path}.json`
-        const url = "https://guillaumeader1.github.io/site-generator/dist/config/page1.json"
+        const path = this.props.config || 'page0'
+        let url = `config/${path}.json`
+        if (!process) {
+            url = `${URL}${url}`
+        }
         fetch(url, { method: 'get' })
             .then(response => response.json())
             .then(data => this.buildHtml(data))

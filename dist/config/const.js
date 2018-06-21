@@ -1,0 +1,1 @@
+export const URL = 'https://guillaumeader1.github.io/site-generator/dist/'

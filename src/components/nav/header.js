@@ -23,9 +23,9 @@ class Section extends Component {
         return (
             <React.Fragment>
                 <header id="header" style={{ backgroundColor: css.style.header }}>
-                    <a href="" className="logo">
+                    <Link to='/home' className="logo">
                         <strong>#portfolio</strong> <span>Guillaume Ader</span>
-                    </a>
+                    </Link>
                     <nav>
                         <a onClick={e => this.addclassName(true)}>
                             Menu

@@ -43,24 +43,24 @@ const Def = () => (
     </div>
 );
 
-const Section = () => (
-    <React.Fragment>
+const Section = () => {
 
-        {
-            config.routes.map((e, i) => <Route
-                key={i}
-                path={"/" + e.path}
-                //component={Home}
-                render={(props) => <Main {...props} config={e.component} />}
-            />
-            )
-        }
+    return (
+        <React.Fragment>
+            {
+                config.routes.map((e, i) => <Route
+                    key={i}
+                    path={"/" + e.path}
+                    render={(props) => <Main {...props} config={e.component} />}
+                />
+                )
 
-        {/* <Route exact path="/" component={Def} />
+            }
+            {/* <Route exact path="/" component={Def} />
         <Route exact path="/my-about" component={About} />
         <Route exact path="/my-home" component={Home} /> */}
-
-    </React.Fragment >
-)
+        </React.Fragment >
+    )
+}
 
 export default Section;
