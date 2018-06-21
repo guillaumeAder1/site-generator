@@ -55,11 +55,12 @@ class Main extends Component {
         // call page config to generate HTML
         const path = this.props.config || 'page0'
         let url = `config/${path}.json`
+        let prev = ''
         if (!window.location.hostname === 'localhost') {
             // url = `${URL}${url}`
-            url = 'https://guillaumeader1.github.io/site-generator/dist/' + url
+            prev = 'https://guillaumeader1.github.io/site-generator/dist/'
         }
-        fetch(url, { method: 'get' })
+        fetch(prev + url, { method: 'get' })
             .then(response => response.json())
             .then(data => this.buildHtml(data))
             .catch(err => console.log(err));
