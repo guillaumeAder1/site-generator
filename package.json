@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "",
     "main": "src/index.js",
+    "homepage": "http://localhost:8080",
     "scripts": {
         "dev": "webpack-dev-server --mode development --watch",
         "build": "webpack --mode production",
@@ -23,6 +24,7 @@
         "clean-webpack-plugin": "^0.1.19",
         "copy-webpack-plugin": "^4.5.1",
         "css-loader": "^0.28.11",
+        "dotenv": "^6.0.0",
         "express": "^4.16.3",
         "extract-text-webpack-plugin": "next",
         "html-loader": "^0.5.5",

@@ -55,7 +55,7 @@ class Main extends Component {
         // call page config to generate HTML
         const path = this.props.config || 'page0'
         let url = `config/${path}.json`
-        if (!process) {
+        if (!window.location.hostname === 'localhost') {
             url = `${URL}${url}`
         }
         fetch(url, { method: 'get' })
