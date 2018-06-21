@@ -38,7 +38,7 @@ class Section extends Component {
                     <div className="inner">
                         <ul className="links">
                             {config.routes.map((e, i) => {
-                                return <li key={i}><Link key={i} to={e.path} onClick={e => this.addclassName(false)}> {e.name} </Link></li>
+                                return <li key={i}><Link key={i} to={"/" + e.path} onClick={e => this.addclassName(false)}> {e.name} </Link></li>
                             })}
                         </ul>
                         <ul className="actions vertical">
