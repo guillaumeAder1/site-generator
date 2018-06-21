@@ -58,6 +58,7 @@ class Main extends Component {
 
         if (window.location.hostname !== 'localhost') {
             url = `${URL}${url}`
+
             //prev = 'https://guillaumeader1.github.io/site-generator/dist/'
         }
         fetch(url, { method: 'get' })
