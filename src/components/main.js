@@ -56,7 +56,8 @@ class Main extends Component {
         const path = this.props.config || 'page0'
         let url = `config/${path}.json`
         if (!window.location.hostname === 'localhost') {
-            url = `${URL}${url}`
+            // url = `${URL}${url}`
+            url = 'https://guillaumeader1.github.io/site-generator/dist/' + url
         }
         fetch(url, { method: 'get' })
             .then(response => response.json())
