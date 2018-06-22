@@ -5,12 +5,12 @@ import createHistory from 'history/createBrowserHistory';
 import rootReducer from './reducers';
 
 console.log("BUILD ENV::" + process.env.NODE_ENV)
-// export const history = createHistory({
-//     basename: (process.env.NODE_ENV == 'development') ? '' : '/site-generator/dist/'
-// });
 export const history = createHistory({
-    basename: (process.env.NODE_ENV == 'development') ? '' : ''
+    basename: (process.env.NODE_ENV == 'development') ? '' : '/site-generator/dist/'
 });
+// export const history = createHistory({
+//     basename: (process.env.NODE_ENV == 'development') ? '' : ''
+// });
 
 const initialState = {};
 const enhancers = [];
