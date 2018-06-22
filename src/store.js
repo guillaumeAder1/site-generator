@@ -4,7 +4,7 @@ import thunk from 'redux-thunk';
 import createHistory from 'history/createBrowserHistory';
 import rootReducer from './reducers';
 
-
+console.log(process.env.NODE_ENV)
 export const history = createHistory({
     basename: (process.env.NODE_ENV == 'dev') ? '' : '/user'
 });

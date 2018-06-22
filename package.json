@@ -5,10 +5,10 @@
     "main": "src/index.js",
     "homepage": "http://localhost:8080",
     "scripts": {
-        "start": "set NODE_ENV=dev && npm run dev",
-        "dev": "webpack-dev-server --mode development --open --watch",
-        "build": "set NODE_ENV=prod && npm run dobuild",
-        "dobuild": "webpack --mode production",
+        "start": "npm run dev",
+        "dev": "webpack-dev-server --env.NODE_ENV=dev --mode development --open --watch",
+        "build": "npm run dobuild",
+        "dobuild": "webpack  --env.NODE_ENV=prod --mode production",
         "push": "gitpush.bat"
     },
     "author": "Guillaume Ader",

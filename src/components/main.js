@@ -8,6 +8,7 @@ import Contact from './sections/contact'
 import { getRoot } from '../config/const'
 import { withRouter } from 'react-router'
 
+
 /**
  * Main component
  * from prop.confif, will load json file, and generate HTML from it.
@@ -77,5 +78,5 @@ class Main extends Component {
     }
 }
 
-export default withRouter(Main)
-// export default Main
+// export default withRouter(Main)
+export default Main
