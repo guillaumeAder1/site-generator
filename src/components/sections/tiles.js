@@ -1,5 +1,6 @@
 import React from 'react'
 import css from '../../config/style.json'
+import { getRoot } from '../../config/const'
 
 
 /**
@@ -9,10 +10,11 @@ import css from '../../config/style.json'
 const Tiles = (props) => {
 
     const build = (e, i) => {
-        const display = (i % 2 == 0) ? 'top center' : 'center center';
-        const bg = (i % 2 == 0) ? css.style.secBg : css.style.mainBg;
+        // const display = (i % 2 == 0) ? 'top center' : 'center center';
+        // const bg = (i % 2 == 0) ? css.style.secBg : css.style.mainBg;
+        const imgpath = getRoot('/assets/images/pic01.jpg')
         return (
-            <article key={i} style={{ backgroundImage: "url('./assets/images/pic01.jpg')" }}>
+            <article key={i} style={{ backgroundImage: `url('${imgpath}')` }}>
                 <span className="image" style={{ display: 'none' }}>
                     <img src="images/pic01.jpg" alt="" />
                 </span>

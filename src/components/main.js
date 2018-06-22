@@ -5,7 +5,7 @@ import Slideshow from './sections/slideshow'
 import Header from './sections/header'
 import Tiles from './sections/tiles'
 import Contact from './sections/contact'
-import { URL } from '../config/const'
+import { getRoot } from '../config/const'
 
 /**
  * Main component
@@ -22,7 +22,7 @@ class Main extends Component {
     }
     /**
      * will instanciate Component based on JSON file.
-     * evry KEY of json file should be a part of /components/section
+     * every KEY of json file should be a part of /components/section
      * @param {*Object} data - generated from a json file located in /config
      */
     buildHtml(data) {
@@ -54,13 +54,13 @@ class Main extends Component {
     componentDidMount() {
         // call page config to generate HTML
         const path = this.props.config || 'page0'
-        let url = `config/${path}.json`
+        let url = getRoot(`config/${path}.json`)
 
-        if (window.location.hostname !== 'localhost') {
-            url = `${URL}${url}`
+        // if (window.location.hostname !== 'localhost') {
+        //     // url = `${URL}${url}`
+        //     url = getRoot(url)
+        // }
 
-            //prev = 'https://guillaumeader1.github.io/site-generator/dist/'
-        }
         fetch(url, { method: 'get' })
             .then(response => response.json())
             .then(data => this.buildHtml(data))
