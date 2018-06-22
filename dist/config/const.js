@@ -6,6 +6,9 @@ export const URL = 'https://guillaumeader1.github.io/site-generator/dist/'
  * @param {String} path - part of url to concat or not e.g. ./images/pic.jpg 
  */
 export function getRoot(path) {
+    /**
+     * to be removed
+     */
     if (window.location.hostname !== 'localhost000') {
         return `${URL}${path}`
     } else {

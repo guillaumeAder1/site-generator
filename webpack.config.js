@@ -62,6 +62,11 @@ module.exports = (env) => {
         template: "./src/index.html",
         filename: "index.html"
       }),
+      new HtmlWebPackPlugin({
+        inject: false,
+        template: "./src/404.html",
+        filename: "404.html"
+      }),
       new CopyWebpackPlugin([
         { from: 'src/assets', to: 'assets' },
         { from: 'src/config', to: 'config' }
