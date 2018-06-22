@@ -28,6 +28,9 @@ class Main extends Component {
      * @param {*Object} data - generated from a json file located in /config
      */
     buildHtml(data) {
+        if (!data) {
+            return false
+        }
         const skeleton = Object.keys(data);
         // const path = skeleton[0]
         // import(`./sections/${path}.js`).then(_module => {

@@ -30,7 +30,7 @@ const Tiles = (props) => {
         )
     }
 
-    // TODO: replace using reduce
+    // TODO: replace using array.reduce()
     let list = [];
     for (var val in props) {
         list.push(props[val])
