@@ -1,7 +1,9 @@
 import React from 'react'
-import { HashRouter as Router, Route } from 'react-router-dom';
+import { Router, Route } from 'react-router-dom';
 import config from '../../config/conf.json'
 import Main from '../main'
+import { withRouter } from 'react-router'
+
 
 const Home = () => (
     <div>
@@ -63,4 +65,5 @@ const Section = () => {
     )
 }
 
+// export default withRouter(Section);
 export default Section;

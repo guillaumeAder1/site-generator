@@ -5,6 +5,7 @@
     "main": "src/index.js",
     "homepage": "http://localhost:8080",
     "scripts": {
+        "start": "set NODE_ENV=dev && npm run dev",
         "dev": "webpack-dev-server --mode development --open --watch",
         "build": "webpack --mode production",
         "push": "gitpush.bat"
