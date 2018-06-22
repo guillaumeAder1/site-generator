@@ -7,7 +7,8 @@
     "scripts": {
         "start": "set NODE_ENV=dev && npm run dev",
         "dev": "webpack-dev-server --mode development --open --watch",
-        "build": "webpack --mode production",
+        "build": "set NODE_ENV=prod && npm run dobuild",
+        "dobuild": "webpack --mode production",
         "push": "gitpush.bat"
     },
     "author": "Guillaume Ader",

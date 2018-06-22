@@ -6,7 +6,7 @@ import rootReducer from './reducers';
 
 
 export const history = createHistory({
-    basename: (process.env.NODE_ENV) ? '' : '/user'
+    basename: (process.env.NODE_ENV == 'dev') ? '' : '/user'
 });
 
 const initialState = {};
