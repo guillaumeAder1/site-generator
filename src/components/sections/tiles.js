@@ -12,7 +12,8 @@ const Tiles = (props) => {
     const build = (e, i) => {
         // const display = (i % 2 == 0) ? 'top center' : 'center center';
         // const bg = (i % 2 == 0) ? css.style.secBg : css.style.mainBg;
-        const imgpath = getRoot('/assets/images/pic01.jpg')
+        const rand = Math.floor(Math.random() * 6) + 1
+        const imgpath = getRoot(`/assets/images/pic0${rand}.jpg`)
         return (
             <article key={i} style={{ backgroundImage: `url('${imgpath}')` }}>
                 <span className="image" style={{ display: 'none' }}>
