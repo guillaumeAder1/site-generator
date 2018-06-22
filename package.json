@@ -8,7 +8,7 @@
         "start": "npm run dev",
         "dev": "webpack-dev-server --env.NODE_ENV=dev --mode development --open --watch",
         "build": "npm run dobuild",
-        "dobuild": "webpack  --env.NODE_ENV=prod --mode production",
+        "dobuild": "webpack  --env.NODE_ENV=prod --mode production --devtool none",
         "push": "gitpush.bat",
         "test": "jest"
     },
