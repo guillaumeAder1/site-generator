@@ -6,6 +6,7 @@ import Header from './sections/header'
 import Tiles from './sections/tiles'
 import Contact from './sections/contact'
 import { getRoot } from '../config/const'
+import { withRouter } from 'react-router'
 
 /**
  * Main component
@@ -76,4 +77,5 @@ class Main extends Component {
     }
 }
 
-export default Main
+export default withRouter(Main)
+// export default Main
