@@ -56,7 +56,6 @@ module.exports = (env) => {
       ]
     },
     plugins: [
-      // new webpack.HotModuleReplacementPlugin(),
       new CleanWebpackPlugin(['dist']),
       new ExtractTextPlugin({ filename: 'style.css' }),
       new HtmlWebPackPlugin({
@@ -68,13 +67,7 @@ module.exports = (env) => {
         { from: 'src/config', to: 'config' }
       ]),
       new webpack.NamedChunksPlugin(),
-      new webpack.HotModuleReplacementPlugin(),
-      // new webpack.DefinePlugin({
-      //   // 'process.env': {
-      //   //   NODE_ENV: JSON.stringify('production'),
-      //   // }
-      // }),
-
+      new webpack.HotModuleReplacementPlugin()
     ],
 
     optimization: {
