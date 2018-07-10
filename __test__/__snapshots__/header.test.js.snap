@@ -1,0 +1,324 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component props are passed 1`] = `
+ReactWrapper {
+  "length": 1,
+  Symbol(enzyme.__unrendered__): <Header
+    params={
+      Object {
+        "text": "header text",
+        "title": "this is a header",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "params": Object {
+        "text": "header text",
+        "title": "this is a header",
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": <section
+        style="background-color: rgb(47, 47, 47);"
+      >
+        <div
+          class="inner"
+        >
+          <header
+            class="major"
+          >
+            <h2>
+              this is a header
+            </h2>
+          </header>
+          <p>
+            header text
+          </p>
+        </div>
+      </section>,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="inner"
+        >
+          <header
+            className="major"
+          >
+            <h2>
+              this is a header
+            </h2>
+          </header>
+          <p>
+            header text
+          </p>
+        </div>,
+        "style": Object {
+          "backgroundColor": "#2f2f2f",
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": <div
+            class="inner"
+          >
+            <header
+              class="major"
+            >
+              <h2>
+                this is a header
+              </h2>
+            </header>
+            <p>
+              header text
+            </p>
+          </div>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <header
+                className="major"
+              >
+                <h2>
+                  this is a header
+                </h2>
+              </header>,
+              <p>
+                header text
+              </p>,
+            ],
+            "className": "inner",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <header
+                class="major"
+              >
+                <h2>
+                  this is a header
+                </h2>
+              </header>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <h2>
+                  this is a header
+                </h2>,
+                "className": "major",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": <h2>
+                    this is a header
+                  </h2>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "this is a header",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "this is a header",
+                  ],
+                  "type": "h2",
+                },
+              ],
+              "type": "header",
+            },
+            Object {
+              "instance": <p>
+                header text
+              </p>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "header text",
+              },
+              "ref": null,
+              "rendered": Array [
+                "header text",
+              ],
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "section",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "params": Object {
+          "text": "header text",
+          "title": "this is a header",
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": <section
+          style="background-color: rgb(47, 47, 47);"
+        >
+          <div
+            class="inner"
+          >
+            <header
+              class="major"
+            >
+              <h2>
+                this is a header
+              </h2>
+            </header>
+            <p>
+              header text
+            </p>
+          </div>
+        </section>,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="inner"
+          >
+            <header
+              className="major"
+            >
+              <h2>
+                this is a header
+              </h2>
+            </header>
+            <p>
+              header text
+            </p>
+          </div>,
+          "style": Object {
+            "backgroundColor": "#2f2f2f",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": <div
+              class="inner"
+            >
+              <header
+                class="major"
+              >
+                <h2>
+                  this is a header
+                </h2>
+              </header>
+              <p>
+                header text
+              </p>
+            </div>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <header
+                  className="major"
+                >
+                  <h2>
+                    this is a header
+                  </h2>
+                </header>,
+                <p>
+                  header text
+                </p>,
+              ],
+              "className": "inner",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <header
+                  class="major"
+                >
+                  <h2>
+                    this is a header
+                  </h2>
+                </header>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <h2>
+                    this is a header
+                  </h2>,
+                  "className": "major",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": <h2>
+                      this is a header
+                    </h2>,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "this is a header",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "this is a header",
+                    ],
+                    "type": "h2",
+                  },
+                ],
+                "type": "header",
+              },
+              Object {
+                "instance": <p>
+                  header text
+                </p>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "header text",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "header text",
+                ],
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "section",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

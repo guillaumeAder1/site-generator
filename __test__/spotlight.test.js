@@ -1,8 +1,5 @@
 import Spotlight from '../src/components/sections/Spotlight'
 import React from 'react';
-// import Adapter from 'enzyme-adapter-react-16';
-// import { configure, mount } from 'enzyme';
-// configure({ adapter: new Adapter() });
 
 const val = [
     { "title": "this is spotlight 1", "text": "et sagittis magna sed nunc rhoncus condimentum sem." },
