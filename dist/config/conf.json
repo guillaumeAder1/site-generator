@@ -1,0 +1,8 @@
+{
+    "routes": [
+        { "name": "Home", "path": "home", "component": "page0" },
+        { "name": "Page 1", "path": "my-page1", "component": "page1" },
+        { "name": "Page 2", "path": "my-page2", "component": "page2" }
+
+    ]
+}

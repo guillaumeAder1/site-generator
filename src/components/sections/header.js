@@ -10,11 +10,12 @@ const Header = (props) => (
     <section style={{ backgroundColor: css.style.secBg }}>
         <div className="inner">
             <header className="major">
-                <h2>{props.title}</h2>
+                <h2>{props.params.title}</h2>
             </header>
-            <p>{props.text}</p>
+            <p>{props.params.text}</p>
         </div>
     </section>
+
 
 );
 

@@ -43,7 +43,7 @@ class Main extends Component {
             } else if (e == 'spotlight') {
                 comp = <Spotlight key={i} params={data[e]} />
             } else if (e == 'header') {
-                comp = <Header key={i} {...data[e]} />
+                comp = <Header key={i} params={data[e]} />
             } else if (e == 'tiles') {
                 comp = <Tiles key={i} {...data[e]} />
             } else if (e == 'contact') {
@@ -65,7 +65,6 @@ class Main extends Component {
         //     // url = `${URL}${url}`
         //     url = getRoot(url)
         // }
-
         fetch(url, { method: 'get' })
             .then(response => response.json())
             .then(data => this.buildHtml(data))
