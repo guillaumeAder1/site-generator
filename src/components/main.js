@@ -41,7 +41,7 @@ class Main extends Component {
             if (e == 'slideshow') {
                 comp = <Slideshow key={i} {...data[e]} />
             } else if (e == 'spotlight') {
-                comp = <Spotlight key={i} {...data[e]} />
+                comp = <Spotlight key={i} params={data[e]} />
             } else if (e == 'header') {
                 comp = <Header key={i} {...data[e]} />
             } else if (e == 'tiles') {

@@ -1,0 +1,3068 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing Spotlight component component mount 1`] = `
+ReactWrapper {
+  "length": 1,
+  Symbol(enzyme.__unrendered__): <Spotlight
+    params={
+      Array [
+        Object {
+          "text": "et sagittis magna sed nunc rhoncus condimentum sem.",
+          "title": "this is spotlight 1",
+        },
+        Object {
+          "text": "Nullam et orci eu lorem consequat",
+          "title": "this is spotlight 2",
+        },
+        Object {
+          "text": "consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem.",
+          "title": "this is spotlight 3",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "params": Array [
+        Object {
+          "text": "et sagittis magna sed nunc rhoncus condimentum sem.",
+          "title": "this is spotlight 1",
+        },
+        Object {
+          "text": "Nullam et orci eu lorem consequat",
+          "title": "this is spotlight 2",
+        },
+        Object {
+          "text": "consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem.",
+          "title": "this is spotlight 3",
+        },
+      ],
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": <div
+        class="spotlights"
+      >
+        <section
+          style="background-color: rgb(47, 47, 47);"
+        >
+          <a
+            class="image"
+            href="generic.html"
+          >
+            <img
+              alt=""
+              data-position="top center"
+              src="images/pic08.jpg"
+            />
+          </a>
+          <div
+            class="content"
+          >
+            <div
+              class="inner"
+            >
+              <header
+                class="major"
+              >
+                <h3>
+                  this is spotlight 1
+                </h3>
+              </header>
+              <p>
+                et sagittis magna sed nunc rhoncus condimentum sem.
+              </p>
+              <ul
+                class="actions"
+              >
+                <li>
+                  <a
+                    class="button"
+                    href="generic.html"
+                  >
+                    Learn more
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section
+          style="background-color: rgb(39, 39, 39);"
+        >
+          <a
+            class="image"
+            href="generic.html"
+          >
+            <img
+              alt=""
+              data-position="center center"
+              src="images/pic08.jpg"
+            />
+          </a>
+          <div
+            class="content"
+          >
+            <div
+              class="inner"
+            >
+              <header
+                class="major"
+              >
+                <h3>
+                  this is spotlight 2
+                </h3>
+              </header>
+              <p>
+                Nullam et orci eu lorem consequat
+              </p>
+              <ul
+                class="actions"
+              >
+                <li>
+                  <a
+                    class="button"
+                    href="generic.html"
+                  >
+                    Learn more
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section
+          style="background-color: rgb(47, 47, 47);"
+        >
+          <a
+            class="image"
+            href="generic.html"
+          >
+            <img
+              alt=""
+              data-position="top center"
+              src="images/pic08.jpg"
+            />
+          </a>
+          <div
+            class="content"
+          >
+            <div
+              class="inner"
+            >
+              <header
+                class="major"
+              >
+                <h3>
+                  this is spotlight 3
+                </h3>
+              </header>
+              <p>
+                consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem.
+              </p>
+              <ul
+                class="actions"
+              >
+                <li>
+                  <a
+                    class="button"
+                    href="generic.html"
+                  >
+                    Learn more
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <section
+            style={
+              Object {
+                "backgroundColor": "#2f2f2f",
+              }
+            }
+          >
+            <a
+              className="image"
+              href="generic.html"
+            >
+              <img
+                alt=""
+                data-position="top center"
+                src="images/pic08.jpg"
+              />
+            </a>
+            <div
+              className="content"
+            >
+              <div
+                className="inner"
+              >
+                <header
+                  className="major"
+                >
+                  <h3>
+                    this is spotlight 1
+                  </h3>
+                </header>
+                <p>
+                  et sagittis magna sed nunc rhoncus condimentum sem.
+                </p>
+                <ul
+                  className="actions"
+                >
+                  <li>
+                    <a
+                      className="button"
+                      href="generic.html"
+                    >
+                      Learn more
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>,
+          <section
+            style={
+              Object {
+                "backgroundColor": "#272727",
+              }
+            }
+          >
+            <a
+              className="image"
+              href="generic.html"
+            >
+              <img
+                alt=""
+                data-position="center center"
+                src="images/pic08.jpg"
+              />
+            </a>
+            <div
+              className="content"
+            >
+              <div
+                className="inner"
+              >
+                <header
+                  className="major"
+                >
+                  <h3>
+                    this is spotlight 2
+                  </h3>
+                </header>
+                <p>
+                  Nullam et orci eu lorem consequat
+                </p>
+                <ul
+                  className="actions"
+                >
+                  <li>
+                    <a
+                      className="button"
+                      href="generic.html"
+                    >
+                      Learn more
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>,
+          <section
+            style={
+              Object {
+                "backgroundColor": "#2f2f2f",
+              }
+            }
+          >
+            <a
+              className="image"
+              href="generic.html"
+            >
+              <img
+                alt=""
+                data-position="top center"
+                src="images/pic08.jpg"
+              />
+            </a>
+            <div
+              className="content"
+            >
+              <div
+                className="inner"
+              >
+                <header
+                  className="major"
+                >
+                  <h3>
+                    this is spotlight 3
+                  </h3>
+                </header>
+                <p>
+                  consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem.
+                </p>
+                <ul
+                  className="actions"
+                >
+                  <li>
+                    <a
+                      className="button"
+                      href="generic.html"
+                    >
+                      Learn more
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>,
+        ],
+        "className": "spotlights",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": <section
+            style="background-color: rgb(47, 47, 47);"
+          >
+            <a
+              class="image"
+              href="generic.html"
+            >
+              <img
+                alt=""
+                data-position="top center"
+                src="images/pic08.jpg"
+              />
+            </a>
+            <div
+              class="content"
+            >
+              <div
+                class="inner"
+              >
+                <header
+                  class="major"
+                >
+                  <h3>
+                    this is spotlight 1
+                  </h3>
+                </header>
+                <p>
+                  et sagittis magna sed nunc rhoncus condimentum sem.
+                </p>
+                <ul
+                  class="actions"
+                >
+                  <li>
+                    <a
+                      class="button"
+                      href="generic.html"
+                    >
+                      Learn more
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>,
+          "key": "0",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <a
+                className="image"
+                href="generic.html"
+              >
+                <img
+                  alt=""
+                  data-position="top center"
+                  src="images/pic08.jpg"
+                />
+              </a>,
+              <div
+                className="content"
+              >
+                <div
+                  className="inner"
+                >
+                  <header
+                    className="major"
+                  >
+                    <h3>
+                      this is spotlight 1
+                    </h3>
+                  </header>
+                  <p>
+                    et sagittis magna sed nunc rhoncus condimentum sem.
+                  </p>
+                  <ul
+                    className="actions"
+                  >
+                    <li>
+                      <a
+                        className="button"
+                        href="generic.html"
+                      >
+                        Learn more
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>,
+            ],
+            "style": Object {
+              "backgroundColor": "#2f2f2f",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <a
+                class="image"
+                href="generic.html"
+              >
+                <img
+                  alt=""
+                  data-position="top center"
+                  src="images/pic08.jpg"
+                />
+              </a>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <img
+                  alt=""
+                  data-position="top center"
+                  src="images/pic08.jpg"
+                />,
+                "className": "image",
+                "href": "generic.html",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": <img
+                    alt=""
+                    data-position="top center"
+                    src="images/pic08.jpg"
+                  />,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "",
+                    "data-position": "top center",
+                    "src": "images/pic08.jpg",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    undefined,
+                  ],
+                  "type": "img",
+                },
+              ],
+              "type": "a",
+            },
+            Object {
+              "instance": <div
+                class="content"
+              >
+                <div
+                  class="inner"
+                >
+                  <header
+                    class="major"
+                  >
+                    <h3>
+                      this is spotlight 1
+                    </h3>
+                  </header>
+                  <p>
+                    et sagittis magna sed nunc rhoncus condimentum sem.
+                  </p>
+                  <ul
+                    class="actions"
+                  >
+                    <li>
+                      <a
+                        class="button"
+                        href="generic.html"
+                      >
+                        Learn more
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="inner"
+                >
+                  <header
+                    className="major"
+                  >
+                    <h3>
+                      this is spotlight 1
+                    </h3>
+                  </header>
+                  <p>
+                    et sagittis magna sed nunc rhoncus condimentum sem.
+                  </p>
+                  <ul
+                    className="actions"
+                  >
+                    <li>
+                      <a
+                        className="button"
+                        href="generic.html"
+                      >
+                        Learn more
+                      </a>
+                    </li>
+                  </ul>
+                </div>,
+                "className": "content",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": <div
+                    class="inner"
+                  >
+                    <header
+                      class="major"
+                    >
+                      <h3>
+                        this is spotlight 1
+                      </h3>
+                    </header>
+                    <p>
+                      et sagittis magna sed nunc rhoncus condimentum sem.
+                    </p>
+                    <ul
+                      class="actions"
+                    >
+                      <li>
+                        <a
+                          class="button"
+                          href="generic.html"
+                        >
+                          Learn more
+                        </a>
+                      </li>
+                    </ul>
+                  </div>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <header
+                        className="major"
+                      >
+                        <h3>
+                          this is spotlight 1
+                        </h3>
+                      </header>,
+                      <p>
+                        et sagittis magna sed nunc rhoncus condimentum sem.
+                      </p>,
+                      <ul
+                        className="actions"
+                      >
+                        <li>
+                          <a
+                            className="button"
+                            href="generic.html"
+                          >
+                            Learn more
+                          </a>
+                        </li>
+                      </ul>,
+                    ],
+                    "className": "inner",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": <header
+                        class="major"
+                      >
+                        <h3>
+                          this is spotlight 1
+                        </h3>
+                      </header>,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <h3>
+                          this is spotlight 1
+                        </h3>,
+                        "className": "major",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": <h3>
+                            this is spotlight 1
+                          </h3>,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "this is spotlight 1",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            "this is spotlight 1",
+                          ],
+                          "type": "h3",
+                        },
+                      ],
+                      "type": "header",
+                    },
+                    Object {
+                      "instance": <p>
+                        et sagittis magna sed nunc rhoncus condimentum sem.
+                      </p>,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "et sagittis magna sed nunc rhoncus condimentum sem.",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "et sagittis magna sed nunc rhoncus condimentum sem.",
+                      ],
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": <ul
+                        class="actions"
+                      >
+                        <li>
+                          <a
+                            class="button"
+                            href="generic.html"
+                          >
+                            Learn more
+                          </a>
+                        </li>
+                      </ul>,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <li>
+                          <a
+                            className="button"
+                            href="generic.html"
+                          >
+                            Learn more
+                          </a>
+                        </li>,
+                        "className": "actions",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": <li>
+                            <a
+                              class="button"
+                              href="generic.html"
+                            >
+                              Learn more
+                            </a>
+                          </li>,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <a
+                              className="button"
+                              href="generic.html"
+                            >
+                              Learn more
+                            </a>,
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": <a
+                                class="button"
+                                href="generic.html"
+                              >
+                                Learn more
+                              </a>,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Learn more",
+                                "className": "button",
+                                "href": "generic.html",
+                              },
+                              "ref": null,
+                              "rendered": Array [
+                                "Learn more",
+                              ],
+                              "type": "a",
+                            },
+                          ],
+                          "type": "li",
+                        },
+                      ],
+                      "type": "ul",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "section",
+        },
+        Object {
+          "instance": <section
+            style="background-color: rgb(39, 39, 39);"
+          >
+            <a
+              class="image"
+              href="generic.html"
+            >
+              <img
+                alt=""
+                data-position="center center"
+                src="images/pic08.jpg"
+              />
+            </a>
+            <div
+              class="content"
+            >
+              <div
+                class="inner"
+              >
+                <header
+                  class="major"
+                >
+                  <h3>
+                    this is spotlight 2
+                  </h3>
+                </header>
+                <p>
+                  Nullam et orci eu lorem consequat
+                </p>
+                <ul
+                  class="actions"
+                >
+                  <li>
+                    <a
+                      class="button"
+                      href="generic.html"
+                    >
+                      Learn more
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>,
+          "key": "1",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <a
+                className="image"
+                href="generic.html"
+              >
+                <img
+                  alt=""
+                  data-position="center center"
+                  src="images/pic08.jpg"
+                />
+              </a>,
+              <div
+                className="content"
+              >
+                <div
+                  className="inner"
+                >
+                  <header
+                    className="major"
+                  >
+                    <h3>
+                      this is spotlight 2
+                    </h3>
+                  </header>
+                  <p>
+                    Nullam et orci eu lorem consequat
+                  </p>
+                  <ul
+                    className="actions"
+                  >
+                    <li>
+                      <a
+                        className="button"
+                        href="generic.html"
+                      >
+                        Learn more
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>,
+            ],
+            "style": Object {
+              "backgroundColor": "#272727",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <a
+                class="image"
+                href="generic.html"
+              >
+                <img
+                  alt=""
+                  data-position="center center"
+                  src="images/pic08.jpg"
+                />
+              </a>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <img
+                  alt=""
+                  data-position="center center"
+                  src="images/pic08.jpg"
+                />,
+                "className": "image",
+                "href": "generic.html",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": <img
+                    alt=""
+                    data-position="center center"
+                    src="images/pic08.jpg"
+                  />,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "",
+                    "data-position": "center center",
+                    "src": "images/pic08.jpg",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    undefined,
+                  ],
+                  "type": "img",
+                },
+              ],
+              "type": "a",
+            },
+            Object {
+              "instance": <div
+                class="content"
+              >
+                <div
+                  class="inner"
+                >
+                  <header
+                    class="major"
+                  >
+                    <h3>
+                      this is spotlight 2
+                    </h3>
+                  </header>
+                  <p>
+                    Nullam et orci eu lorem consequat
+                  </p>
+                  <ul
+                    class="actions"
+                  >
+                    <li>
+                      <a
+                        class="button"
+                        href="generic.html"
+                      >
+                        Learn more
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="inner"
+                >
+                  <header
+                    className="major"
+                  >
+                    <h3>
+                      this is spotlight 2
+                    </h3>
+                  </header>
+                  <p>
+                    Nullam et orci eu lorem consequat
+                  </p>
+                  <ul
+                    className="actions"
+                  >
+                    <li>
+                      <a
+                        className="button"
+                        href="generic.html"
+                      >
+                        Learn more
+                      </a>
+                    </li>
+                  </ul>
+                </div>,
+                "className": "content",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": <div
+                    class="inner"
+                  >
+                    <header
+                      class="major"
+                    >
+                      <h3>
+                        this is spotlight 2
+                      </h3>
+                    </header>
+                    <p>
+                      Nullam et orci eu lorem consequat
+                    </p>
+                    <ul
+                      class="actions"
+                    >
+                      <li>
+                        <a
+                          class="button"
+                          href="generic.html"
+                        >
+                          Learn more
+                        </a>
+                      </li>
+                    </ul>
+                  </div>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <header
+                        className="major"
+                      >
+                        <h3>
+                          this is spotlight 2
+                        </h3>
+                      </header>,
+                      <p>
+                        Nullam et orci eu lorem consequat
+                      </p>,
+                      <ul
+                        className="actions"
+                      >
+                        <li>
+                          <a
+                            className="button"
+                            href="generic.html"
+                          >
+                            Learn more
+                          </a>
+                        </li>
+                      </ul>,
+                    ],
+                    "className": "inner",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": <header
+                        class="major"
+                      >
+                        <h3>
+                          this is spotlight 2
+                        </h3>
+                      </header>,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <h3>
+                          this is spotlight 2
+                        </h3>,
+                        "className": "major",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": <h3>
+                            this is spotlight 2
+                          </h3>,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "this is spotlight 2",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            "this is spotlight 2",
+                          ],
+                          "type": "h3",
+                        },
+                      ],
+                      "type": "header",
+                    },
+                    Object {
+                      "instance": <p>
+                        Nullam et orci eu lorem consequat
+                      </p>,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Nullam et orci eu lorem consequat",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Nullam et orci eu lorem consequat",
+                      ],
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": <ul
+                        class="actions"
+                      >
+                        <li>
+                          <a
+                            class="button"
+                            href="generic.html"
+                          >
+                            Learn more
+                          </a>
+                        </li>
+                      </ul>,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <li>
+                          <a
+                            className="button"
+                            href="generic.html"
+                          >
+                            Learn more
+                          </a>
+                        </li>,
+                        "className": "actions",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": <li>
+                            <a
+                              class="button"
+                              href="generic.html"
+                            >
+                              Learn more
+                            </a>
+                          </li>,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <a
+                              className="button"
+                              href="generic.html"
+                            >
+                              Learn more
+                            </a>,
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": <a
+                                class="button"
+                                href="generic.html"
+                              >
+                                Learn more
+                              </a>,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Learn more",
+                                "className": "button",
+                                "href": "generic.html",
+                              },
+                              "ref": null,
+                              "rendered": Array [
+                                "Learn more",
+                              ],
+                              "type": "a",
+                            },
+                          ],
+                          "type": "li",
+                        },
+                      ],
+                      "type": "ul",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "section",
+        },
+        Object {
+          "instance": <section
+            style="background-color: rgb(47, 47, 47);"
+          >
+            <a
+              class="image"
+              href="generic.html"
+            >
+              <img
+                alt=""
+                data-position="top center"
+                src="images/pic08.jpg"
+              />
+            </a>
+            <div
+              class="content"
+            >
+              <div
+                class="inner"
+              >
+                <header
+                  class="major"
+                >
+                  <h3>
+                    this is spotlight 3
+                  </h3>
+                </header>
+                <p>
+                  consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem.
+                </p>
+                <ul
+                  class="actions"
+                >
+                  <li>
+                    <a
+                      class="button"
+                      href="generic.html"
+                    >
+                      Learn more
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>,
+          "key": "2",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <a
+                className="image"
+                href="generic.html"
+              >
+                <img
+                  alt=""
+                  data-position="top center"
+                  src="images/pic08.jpg"
+                />
+              </a>,
+              <div
+                className="content"
+              >
+                <div
+                  className="inner"
+                >
+                  <header
+                    className="major"
+                  >
+                    <h3>
+                      this is spotlight 3
+                    </h3>
+                  </header>
+                  <p>
+                    consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem.
+                  </p>
+                  <ul
+                    className="actions"
+                  >
+                    <li>
+                      <a
+                        className="button"
+                        href="generic.html"
+                      >
+                        Learn more
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>,
+            ],
+            "style": Object {
+              "backgroundColor": "#2f2f2f",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <a
+                class="image"
+                href="generic.html"
+              >
+                <img
+                  alt=""
+                  data-position="top center"
+                  src="images/pic08.jpg"
+                />
+              </a>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <img
+                  alt=""
+                  data-position="top center"
+                  src="images/pic08.jpg"
+                />,
+                "className": "image",
+                "href": "generic.html",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": <img
+                    alt=""
+                    data-position="top center"
+                    src="images/pic08.jpg"
+                  />,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "",
+                    "data-position": "top center",
+                    "src": "images/pic08.jpg",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    undefined,
+                  ],
+                  "type": "img",
+                },
+              ],
+              "type": "a",
+            },
+            Object {
+              "instance": <div
+                class="content"
+              >
+                <div
+                  class="inner"
+                >
+                  <header
+                    class="major"
+                  >
+                    <h3>
+                      this is spotlight 3
+                    </h3>
+                  </header>
+                  <p>
+                    consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem.
+                  </p>
+                  <ul
+                    class="actions"
+                  >
+                    <li>
+                      <a
+                        class="button"
+                        href="generic.html"
+                      >
+                        Learn more
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="inner"
+                >
+                  <header
+                    className="major"
+                  >
+                    <h3>
+                      this is spotlight 3
+                    </h3>
+                  </header>
+                  <p>
+                    consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem.
+                  </p>
+                  <ul
+                    className="actions"
+                  >
+                    <li>
+                      <a
+                        className="button"
+                        href="generic.html"
+                      >
+                        Learn more
+                      </a>
+                    </li>
+                  </ul>
+                </div>,
+                "className": "content",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": <div
+                    class="inner"
+                  >
+                    <header
+                      class="major"
+                    >
+                      <h3>
+                        this is spotlight 3
+                      </h3>
+                    </header>
+                    <p>
+                      consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem.
+                    </p>
+                    <ul
+                      class="actions"
+                    >
+                      <li>
+                        <a
+                          class="button"
+                          href="generic.html"
+                        >
+                          Learn more
+                        </a>
+                      </li>
+                    </ul>
+                  </div>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <header
+                        className="major"
+                      >
+                        <h3>
+                          this is spotlight 3
+                        </h3>
+                      </header>,
+                      <p>
+                        consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem.
+                      </p>,
+                      <ul
+                        className="actions"
+                      >
+                        <li>
+                          <a
+                            className="button"
+                            href="generic.html"
+                          >
+                            Learn more
+                          </a>
+                        </li>
+                      </ul>,
+                    ],
+                    "className": "inner",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": <header
+                        class="major"
+                      >
+                        <h3>
+                          this is spotlight 3
+                        </h3>
+                      </header>,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <h3>
+                          this is spotlight 3
+                        </h3>,
+                        "className": "major",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": <h3>
+                            this is spotlight 3
+                          </h3>,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "this is spotlight 3",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            "this is spotlight 3",
+                          ],
+                          "type": "h3",
+                        },
+                      ],
+                      "type": "header",
+                    },
+                    Object {
+                      "instance": <p>
+                        consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem.
+                      </p>,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem.",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem.",
+                      ],
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": <ul
+                        class="actions"
+                      >
+                        <li>
+                          <a
+                            class="button"
+                            href="generic.html"
+                          >
+                            Learn more
+                          </a>
+                        </li>
+                      </ul>,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <li>
+                          <a
+                            className="button"
+                            href="generic.html"
+                          >
+                            Learn more
+                          </a>
+                        </li>,
+                        "className": "actions",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": <li>
+                            <a
+                              class="button"
+                              href="generic.html"
+                            >
+                              Learn more
+                            </a>
+                          </li>,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <a
+                              className="button"
+                              href="generic.html"
+                            >
+                              Learn more
+                            </a>,
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": <a
+                                class="button"
+                                href="generic.html"
+                              >
+                                Learn more
+                              </a>,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Learn more",
+                                "className": "button",
+                                "href": "generic.html",
+                              },
+                              "ref": null,
+                              "rendered": Array [
+                                "Learn more",
+                              ],
+                              "type": "a",
+                            },
+                          ],
+                          "type": "li",
+                        },
+                      ],
+                      "type": "ul",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "section",
+        },
+      ],
+      "type": "div",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "params": Array [
+          Object {
+            "text": "et sagittis magna sed nunc rhoncus condimentum sem.",
+            "title": "this is spotlight 1",
+          },
+          Object {
+            "text": "Nullam et orci eu lorem consequat",
+            "title": "this is spotlight 2",
+          },
+          Object {
+            "text": "consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem.",
+            "title": "this is spotlight 3",
+          },
+        ],
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": <div
+          class="spotlights"
+        >
+          <section
+            style="background-color: rgb(47, 47, 47);"
+          >
+            <a
+              class="image"
+              href="generic.html"
+            >
+              <img
+                alt=""
+                data-position="top center"
+                src="images/pic08.jpg"
+              />
+            </a>
+            <div
+              class="content"
+            >
+              <div
+                class="inner"
+              >
+                <header
+                  class="major"
+                >
+                  <h3>
+                    this is spotlight 1
+                  </h3>
+                </header>
+                <p>
+                  et sagittis magna sed nunc rhoncus condimentum sem.
+                </p>
+                <ul
+                  class="actions"
+                >
+                  <li>
+                    <a
+                      class="button"
+                      href="generic.html"
+                    >
+                      Learn more
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <section
+            style="background-color: rgb(39, 39, 39);"
+          >
+            <a
+              class="image"
+              href="generic.html"
+            >
+              <img
+                alt=""
+                data-position="center center"
+                src="images/pic08.jpg"
+              />
+            </a>
+            <div
+              class="content"
+            >
+              <div
+                class="inner"
+              >
+                <header
+                  class="major"
+                >
+                  <h3>
+                    this is spotlight 2
+                  </h3>
+                </header>
+                <p>
+                  Nullam et orci eu lorem consequat
+                </p>
+                <ul
+                  class="actions"
+                >
+                  <li>
+                    <a
+                      class="button"
+                      href="generic.html"
+                    >
+                      Learn more
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <section
+            style="background-color: rgb(47, 47, 47);"
+          >
+            <a
+              class="image"
+              href="generic.html"
+            >
+              <img
+                alt=""
+                data-position="top center"
+                src="images/pic08.jpg"
+              />
+            </a>
+            <div
+              class="content"
+            >
+              <div
+                class="inner"
+              >
+                <header
+                  class="major"
+                >
+                  <h3>
+                    this is spotlight 3
+                  </h3>
+                </header>
+                <p>
+                  consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem.
+                </p>
+                <ul
+                  class="actions"
+                >
+                  <li>
+                    <a
+                      class="button"
+                      href="generic.html"
+                    >
+                      Learn more
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <section
+              style={
+                Object {
+                  "backgroundColor": "#2f2f2f",
+                }
+              }
+            >
+              <a
+                className="image"
+                href="generic.html"
+              >
+                <img
+                  alt=""
+                  data-position="top center"
+                  src="images/pic08.jpg"
+                />
+              </a>
+              <div
+                className="content"
+              >
+                <div
+                  className="inner"
+                >
+                  <header
+                    className="major"
+                  >
+                    <h3>
+                      this is spotlight 1
+                    </h3>
+                  </header>
+                  <p>
+                    et sagittis magna sed nunc rhoncus condimentum sem.
+                  </p>
+                  <ul
+                    className="actions"
+                  >
+                    <li>
+                      <a
+                        className="button"
+                        href="generic.html"
+                      >
+                        Learn more
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>,
+            <section
+              style={
+                Object {
+                  "backgroundColor": "#272727",
+                }
+              }
+            >
+              <a
+                className="image"
+                href="generic.html"
+              >
+                <img
+                  alt=""
+                  data-position="center center"
+                  src="images/pic08.jpg"
+                />
+              </a>
+              <div
+                className="content"
+              >
+                <div
+                  className="inner"
+                >
+                  <header
+                    className="major"
+                  >
+                    <h3>
+                      this is spotlight 2
+                    </h3>
+                  </header>
+                  <p>
+                    Nullam et orci eu lorem consequat
+                  </p>
+                  <ul
+                    className="actions"
+                  >
+                    <li>
+                      <a
+                        className="button"
+                        href="generic.html"
+                      >
+                        Learn more
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>,
+            <section
+              style={
+                Object {
+                  "backgroundColor": "#2f2f2f",
+                }
+              }
+            >
+              <a
+                className="image"
+                href="generic.html"
+              >
+                <img
+                  alt=""
+                  data-position="top center"
+                  src="images/pic08.jpg"
+                />
+              </a>
+              <div
+                className="content"
+              >
+                <div
+                  className="inner"
+                >
+                  <header
+                    className="major"
+                  >
+                    <h3>
+                      this is spotlight 3
+                    </h3>
+                  </header>
+                  <p>
+                    consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem.
+                  </p>
+                  <ul
+                    className="actions"
+                  >
+                    <li>
+                      <a
+                        className="button"
+                        href="generic.html"
+                      >
+                        Learn more
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>,
+          ],
+          "className": "spotlights",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": <section
+              style="background-color: rgb(47, 47, 47);"
+            >
+              <a
+                class="image"
+                href="generic.html"
+              >
+                <img
+                  alt=""
+                  data-position="top center"
+                  src="images/pic08.jpg"
+                />
+              </a>
+              <div
+                class="content"
+              >
+                <div
+                  class="inner"
+                >
+                  <header
+                    class="major"
+                  >
+                    <h3>
+                      this is spotlight 1
+                    </h3>
+                  </header>
+                  <p>
+                    et sagittis magna sed nunc rhoncus condimentum sem.
+                  </p>
+                  <ul
+                    class="actions"
+                  >
+                    <li>
+                      <a
+                        class="button"
+                        href="generic.html"
+                      >
+                        Learn more
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>,
+            "key": "0",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <a
+                  className="image"
+                  href="generic.html"
+                >
+                  <img
+                    alt=""
+                    data-position="top center"
+                    src="images/pic08.jpg"
+                  />
+                </a>,
+                <div
+                  className="content"
+                >
+                  <div
+                    className="inner"
+                  >
+                    <header
+                      className="major"
+                    >
+                      <h3>
+                        this is spotlight 1
+                      </h3>
+                    </header>
+                    <p>
+                      et sagittis magna sed nunc rhoncus condimentum sem.
+                    </p>
+                    <ul
+                      className="actions"
+                    >
+                      <li>
+                        <a
+                          className="button"
+                          href="generic.html"
+                        >
+                          Learn more
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>,
+              ],
+              "style": Object {
+                "backgroundColor": "#2f2f2f",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <a
+                  class="image"
+                  href="generic.html"
+                >
+                  <img
+                    alt=""
+                    data-position="top center"
+                    src="images/pic08.jpg"
+                  />
+                </a>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <img
+                    alt=""
+                    data-position="top center"
+                    src="images/pic08.jpg"
+                  />,
+                  "className": "image",
+                  "href": "generic.html",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": <img
+                      alt=""
+                      data-position="top center"
+                      src="images/pic08.jpg"
+                    />,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "",
+                      "data-position": "top center",
+                      "src": "images/pic08.jpg",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      undefined,
+                    ],
+                    "type": "img",
+                  },
+                ],
+                "type": "a",
+              },
+              Object {
+                "instance": <div
+                  class="content"
+                >
+                  <div
+                    class="inner"
+                  >
+                    <header
+                      class="major"
+                    >
+                      <h3>
+                        this is spotlight 1
+                      </h3>
+                    </header>
+                    <p>
+                      et sagittis magna sed nunc rhoncus condimentum sem.
+                    </p>
+                    <ul
+                      class="actions"
+                    >
+                      <li>
+                        <a
+                          class="button"
+                          href="generic.html"
+                        >
+                          Learn more
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="inner"
+                  >
+                    <header
+                      className="major"
+                    >
+                      <h3>
+                        this is spotlight 1
+                      </h3>
+                    </header>
+                    <p>
+                      et sagittis magna sed nunc rhoncus condimentum sem.
+                    </p>
+                    <ul
+                      className="actions"
+                    >
+                      <li>
+                        <a
+                          className="button"
+                          href="generic.html"
+                        >
+                          Learn more
+                        </a>
+                      </li>
+                    </ul>
+                  </div>,
+                  "className": "content",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": <div
+                      class="inner"
+                    >
+                      <header
+                        class="major"
+                      >
+                        <h3>
+                          this is spotlight 1
+                        </h3>
+                      </header>
+                      <p>
+                        et sagittis magna sed nunc rhoncus condimentum sem.
+                      </p>
+                      <ul
+                        class="actions"
+                      >
+                        <li>
+                          <a
+                            class="button"
+                            href="generic.html"
+                          >
+                            Learn more
+                          </a>
+                        </li>
+                      </ul>
+                    </div>,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <header
+                          className="major"
+                        >
+                          <h3>
+                            this is spotlight 1
+                          </h3>
+                        </header>,
+                        <p>
+                          et sagittis magna sed nunc rhoncus condimentum sem.
+                        </p>,
+                        <ul
+                          className="actions"
+                        >
+                          <li>
+                            <a
+                              className="button"
+                              href="generic.html"
+                            >
+                              Learn more
+                            </a>
+                          </li>
+                        </ul>,
+                      ],
+                      "className": "inner",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": <header
+                          class="major"
+                        >
+                          <h3>
+                            this is spotlight 1
+                          </h3>
+                        </header>,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <h3>
+                            this is spotlight 1
+                          </h3>,
+                          "className": "major",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": <h3>
+                              this is spotlight 1
+                            </h3>,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "this is spotlight 1",
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              "this is spotlight 1",
+                            ],
+                            "type": "h3",
+                          },
+                        ],
+                        "type": "header",
+                      },
+                      Object {
+                        "instance": <p>
+                          et sagittis magna sed nunc rhoncus condimentum sem.
+                        </p>,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "et sagittis magna sed nunc rhoncus condimentum sem.",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "et sagittis magna sed nunc rhoncus condimentum sem.",
+                        ],
+                        "type": "p",
+                      },
+                      Object {
+                        "instance": <ul
+                          class="actions"
+                        >
+                          <li>
+                            <a
+                              class="button"
+                              href="generic.html"
+                            >
+                              Learn more
+                            </a>
+                          </li>
+                        </ul>,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <li>
+                            <a
+                              className="button"
+                              href="generic.html"
+                            >
+                              Learn more
+                            </a>
+                          </li>,
+                          "className": "actions",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": <li>
+                              <a
+                                class="button"
+                                href="generic.html"
+                              >
+                                Learn more
+                              </a>
+                            </li>,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": <a
+                                className="button"
+                                href="generic.html"
+                              >
+                                Learn more
+                              </a>,
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              Object {
+                                "instance": <a
+                                  class="button"
+                                  href="generic.html"
+                                >
+                                  Learn more
+                                </a>,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": "Learn more",
+                                  "className": "button",
+                                  "href": "generic.html",
+                                },
+                                "ref": null,
+                                "rendered": Array [
+                                  "Learn more",
+                                ],
+                                "type": "a",
+                              },
+                            ],
+                            "type": "li",
+                          },
+                        ],
+                        "type": "ul",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "section",
+          },
+          Object {
+            "instance": <section
+              style="background-color: rgb(39, 39, 39);"
+            >
+              <a
+                class="image"
+                href="generic.html"
+              >
+                <img
+                  alt=""
+                  data-position="center center"
+                  src="images/pic08.jpg"
+                />
+              </a>
+              <div
+                class="content"
+              >
+                <div
+                  class="inner"
+                >
+                  <header
+                    class="major"
+                  >
+                    <h3>
+                      this is spotlight 2
+                    </h3>
+                  </header>
+                  <p>
+                    Nullam et orci eu lorem consequat
+                  </p>
+                  <ul
+                    class="actions"
+                  >
+                    <li>
+                      <a
+                        class="button"
+                        href="generic.html"
+                      >
+                        Learn more
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>,
+            "key": "1",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <a
+                  className="image"
+                  href="generic.html"
+                >
+                  <img
+                    alt=""
+                    data-position="center center"
+                    src="images/pic08.jpg"
+                  />
+                </a>,
+                <div
+                  className="content"
+                >
+                  <div
+                    className="inner"
+                  >
+                    <header
+                      className="major"
+                    >
+                      <h3>
+                        this is spotlight 2
+                      </h3>
+                    </header>
+                    <p>
+                      Nullam et orci eu lorem consequat
+                    </p>
+                    <ul
+                      className="actions"
+                    >
+                      <li>
+                        <a
+                          className="button"
+                          href="generic.html"
+                        >
+                          Learn more
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>,
+              ],
+              "style": Object {
+                "backgroundColor": "#272727",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <a
+                  class="image"
+                  href="generic.html"
+                >
+                  <img
+                    alt=""
+                    data-position="center center"
+                    src="images/pic08.jpg"
+                  />
+                </a>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <img
+                    alt=""
+                    data-position="center center"
+                    src="images/pic08.jpg"
+                  />,
+                  "className": "image",
+                  "href": "generic.html",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": <img
+                      alt=""
+                      data-position="center center"
+                      src="images/pic08.jpg"
+                    />,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "",
+                      "data-position": "center center",
+                      "src": "images/pic08.jpg",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      undefined,
+                    ],
+                    "type": "img",
+                  },
+                ],
+                "type": "a",
+              },
+              Object {
+                "instance": <div
+                  class="content"
+                >
+                  <div
+                    class="inner"
+                  >
+                    <header
+                      class="major"
+                    >
+                      <h3>
+                        this is spotlight 2
+                      </h3>
+                    </header>
+                    <p>
+                      Nullam et orci eu lorem consequat
+                    </p>
+                    <ul
+                      class="actions"
+                    >
+                      <li>
+                        <a
+                          class="button"
+                          href="generic.html"
+                        >
+                          Learn more
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="inner"
+                  >
+                    <header
+                      className="major"
+                    >
+                      <h3>
+                        this is spotlight 2
+                      </h3>
+                    </header>
+                    <p>
+                      Nullam et orci eu lorem consequat
+                    </p>
+                    <ul
+                      className="actions"
+                    >
+                      <li>
+                        <a
+                          className="button"
+                          href="generic.html"
+                        >
+                          Learn more
+                        </a>
+                      </li>
+                    </ul>
+                  </div>,
+                  "className": "content",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": <div
+                      class="inner"
+                    >
+                      <header
+                        class="major"
+                      >
+                        <h3>
+                          this is spotlight 2
+                        </h3>
+                      </header>
+                      <p>
+                        Nullam et orci eu lorem consequat
+                      </p>
+                      <ul
+                        class="actions"
+                      >
+                        <li>
+                          <a
+                            class="button"
+                            href="generic.html"
+                          >
+                            Learn more
+                          </a>
+                        </li>
+                      </ul>
+                    </div>,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <header
+                          className="major"
+                        >
+                          <h3>
+                            this is spotlight 2
+                          </h3>
+                        </header>,
+                        <p>
+                          Nullam et orci eu lorem consequat
+                        </p>,
+                        <ul
+                          className="actions"
+                        >
+                          <li>
+                            <a
+                              className="button"
+                              href="generic.html"
+                            >
+                              Learn more
+                            </a>
+                          </li>
+                        </ul>,
+                      ],
+                      "className": "inner",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": <header
+                          class="major"
+                        >
+                          <h3>
+                            this is spotlight 2
+                          </h3>
+                        </header>,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <h3>
+                            this is spotlight 2
+                          </h3>,
+                          "className": "major",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": <h3>
+                              this is spotlight 2
+                            </h3>,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "this is spotlight 2",
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              "this is spotlight 2",
+                            ],
+                            "type": "h3",
+                          },
+                        ],
+                        "type": "header",
+                      },
+                      Object {
+                        "instance": <p>
+                          Nullam et orci eu lorem consequat
+                        </p>,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Nullam et orci eu lorem consequat",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "Nullam et orci eu lorem consequat",
+                        ],
+                        "type": "p",
+                      },
+                      Object {
+                        "instance": <ul
+                          class="actions"
+                        >
+                          <li>
+                            <a
+                              class="button"
+                              href="generic.html"
+                            >
+                              Learn more
+                            </a>
+                          </li>
+                        </ul>,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <li>
+                            <a
+                              className="button"
+                              href="generic.html"
+                            >
+                              Learn more
+                            </a>
+                          </li>,
+                          "className": "actions",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": <li>
+                              <a
+                                class="button"
+                                href="generic.html"
+                              >
+                                Learn more
+                              </a>
+                            </li>,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": <a
+                                className="button"
+                                href="generic.html"
+                              >
+                                Learn more
+                              </a>,
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              Object {
+                                "instance": <a
+                                  class="button"
+                                  href="generic.html"
+                                >
+                                  Learn more
+                                </a>,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": "Learn more",
+                                  "className": "button",
+                                  "href": "generic.html",
+                                },
+                                "ref": null,
+                                "rendered": Array [
+                                  "Learn more",
+                                ],
+                                "type": "a",
+                              },
+                            ],
+                            "type": "li",
+                          },
+                        ],
+                        "type": "ul",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "section",
+          },
+          Object {
+            "instance": <section
+              style="background-color: rgb(47, 47, 47);"
+            >
+              <a
+                class="image"
+                href="generic.html"
+              >
+                <img
+                  alt=""
+                  data-position="top center"
+                  src="images/pic08.jpg"
+                />
+              </a>
+              <div
+                class="content"
+              >
+                <div
+                  class="inner"
+                >
+                  <header
+                    class="major"
+                  >
+                    <h3>
+                      this is spotlight 3
+                    </h3>
+                  </header>
+                  <p>
+                    consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem.
+                  </p>
+                  <ul
+                    class="actions"
+                  >
+                    <li>
+                      <a
+                        class="button"
+                        href="generic.html"
+                      >
+                        Learn more
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>,
+            "key": "2",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <a
+                  className="image"
+                  href="generic.html"
+                >
+                  <img
+                    alt=""
+                    data-position="top center"
+                    src="images/pic08.jpg"
+                  />
+                </a>,
+                <div
+                  className="content"
+                >
+                  <div
+                    className="inner"
+                  >
+                    <header
+                      className="major"
+                    >
+                      <h3>
+                        this is spotlight 3
+                      </h3>
+                    </header>
+                    <p>
+                      consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem.
+                    </p>
+                    <ul
+                      className="actions"
+                    >
+                      <li>
+                        <a
+                          className="button"
+                          href="generic.html"
+                        >
+                          Learn more
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>,
+              ],
+              "style": Object {
+                "backgroundColor": "#2f2f2f",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <a
+                  class="image"
+                  href="generic.html"
+                >
+                  <img
+                    alt=""
+                    data-position="top center"
+                    src="images/pic08.jpg"
+                  />
+                </a>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <img
+                    alt=""
+                    data-position="top center"
+                    src="images/pic08.jpg"
+                  />,
+                  "className": "image",
+                  "href": "generic.html",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": <img
+                      alt=""
+                      data-position="top center"
+                      src="images/pic08.jpg"
+                    />,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "",
+                      "data-position": "top center",
+                      "src": "images/pic08.jpg",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      undefined,
+                    ],
+                    "type": "img",
+                  },
+                ],
+                "type": "a",
+              },
+              Object {
+                "instance": <div
+                  class="content"
+                >
+                  <div
+                    class="inner"
+                  >
+                    <header
+                      class="major"
+                    >
+                      <h3>
+                        this is spotlight 3
+                      </h3>
+                    </header>
+                    <p>
+                      consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem.
+                    </p>
+                    <ul
+                      class="actions"
+                    >
+                      <li>
+                        <a
+                          class="button"
+                          href="generic.html"
+                        >
+                          Learn more
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="inner"
+                  >
+                    <header
+                      className="major"
+                    >
+                      <h3>
+                        this is spotlight 3
+                      </h3>
+                    </header>
+                    <p>
+                      consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem.
+                    </p>
+                    <ul
+                      className="actions"
+                    >
+                      <li>
+                        <a
+                          className="button"
+                          href="generic.html"
+                        >
+                          Learn more
+                        </a>
+                      </li>
+                    </ul>
+                  </div>,
+                  "className": "content",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": <div
+                      class="inner"
+                    >
+                      <header
+                        class="major"
+                      >
+                        <h3>
+                          this is spotlight 3
+                        </h3>
+                      </header>
+                      <p>
+                        consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem.
+                      </p>
+                      <ul
+                        class="actions"
+                      >
+                        <li>
+                          <a
+                            class="button"
+                            href="generic.html"
+                          >
+                            Learn more
+                          </a>
+                        </li>
+                      </ul>
+                    </div>,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <header
+                          className="major"
+                        >
+                          <h3>
+                            this is spotlight 3
+                          </h3>
+                        </header>,
+                        <p>
+                          consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem.
+                        </p>,
+                        <ul
+                          className="actions"
+                        >
+                          <li>
+                            <a
+                              className="button"
+                              href="generic.html"
+                            >
+                              Learn more
+                            </a>
+                          </li>
+                        </ul>,
+                      ],
+                      "className": "inner",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": <header
+                          class="major"
+                        >
+                          <h3>
+                            this is spotlight 3
+                          </h3>
+                        </header>,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <h3>
+                            this is spotlight 3
+                          </h3>,
+                          "className": "major",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": <h3>
+                              this is spotlight 3
+                            </h3>,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "this is spotlight 3",
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              "this is spotlight 3",
+                            ],
+                            "type": "h3",
+                          },
+                        ],
+                        "type": "header",
+                      },
+                      Object {
+                        "instance": <p>
+                          consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem.
+                        </p>,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem.",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem.",
+                        ],
+                        "type": "p",
+                      },
+                      Object {
+                        "instance": <ul
+                          class="actions"
+                        >
+                          <li>
+                            <a
+                              class="button"
+                              href="generic.html"
+                            >
+                              Learn more
+                            </a>
+                          </li>
+                        </ul>,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <li>
+                            <a
+                              className="button"
+                              href="generic.html"
+                            >
+                              Learn more
+                            </a>
+                          </li>,
+                          "className": "actions",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": <li>
+                              <a
+                                class="button"
+                                href="generic.html"
+                              >
+                                Learn more
+                              </a>
+                            </li>,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": <a
+                                className="button"
+                                href="generic.html"
+                              >
+                                Learn more
+                              </a>,
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              Object {
+                                "instance": <a
+                                  class="button"
+                                  href="generic.html"
+                                >
+                                  Learn more
+                                </a>,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": "Learn more",
+                                  "className": "button",
+                                  "href": "generic.html",
+                                },
+                                "ref": null,
+                                "rendered": Array [
+                                  "Learn more",
+                                ],
+                                "type": "a",
+                              },
+                            ],
+                            "type": "li",
+                          },
+                        ],
+                        "type": "ul",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "section",
+          },
+        ],
+        "type": "div",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

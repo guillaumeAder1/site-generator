@@ -39,8 +39,8 @@ const Spotlight = (props) => {
 
     // TODO: replace using reduce
     let list = [];
-    for (var val in props) {
-        list.push(props[val])
+    for (var val in props.params) {
+        list.push(props.params[val])
     }
 
     return (<div className="spotlights">{list.map((e, i) => build(e, i))}</div>)
