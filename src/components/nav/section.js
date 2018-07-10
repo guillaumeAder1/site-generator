@@ -50,6 +50,7 @@ const Section = () => {
     return (
         <React.Fragment>
             {
+
                 config.routes.map((e, i) => <Route
                     key={i}
                     path={"/" + e.path}

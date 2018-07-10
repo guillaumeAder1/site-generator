@@ -53,6 +53,10 @@ class Main extends Component {
         })
         this.setState({ html: tmp })
     }
+
+    log(val) {
+        return val
+    }
     /**
      * load json file from props.config 
      */
