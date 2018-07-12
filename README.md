@@ -1,5 +1,5 @@
 # HTML Page generator 
-### tech used
+
 react 16, webpack 4, redux
 =======
 
